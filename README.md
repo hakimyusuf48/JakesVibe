@@ -2,29 +2,49 @@
 
 ## Objective
 
-> This is third year project for university where there was group work involved. This project is a written from scratch as a clone of the original. As the lead researcher and system system person on the team in 2025, the focus was mostly on quality of the final product it could produce as my research found security flaws and bad code that could have been optimized. The system design portion was to make sure our project could scale (using Docker implementation and Microservice Architecture) and if any infrastructure could be accounted for as 2025 was a boom in invocation in AI where tools were made while we were building such as MCP, OpenClaw, Hermes and others did not exist yet or were not known during the planning and development of the project as the project was spend the entire year of 2025.
-> This project was an application that utilizes Agents create plan, build and test software using RAD methodology so the quality of the software is heavily Quality Control tested to be useable for real world use. 
-> 
-> _I renamed the project and all code here is written by me._
+>Project production management and product builder using agentic AI to produce quality code.
 
-## Tech Stack
+---
+## Preview
 
-| Technology | Name                |
-| ---------- | ------------------- |
-| Frontend   | React Native (Expo) |
-| API        | Python (FastAPI)    |
-| Cache      | Redis (Cache-Aside) |
-|            |                     |
-|            |                     |
-|            |                     |
+_Insert image here
 
-RabbitQ, SupaBase, Docker Compose, Weaviate, Gist Github, Jenkins and GitHub Actions, 
+---
+## Technology
+### Tech Stack
 
-Monitor and logs
+| Category             | Technology             | Purpose                                  |
+| -------------------- | ---------------------- | ---------------------------------------- |
+| **Frontend**         | `React Native (Expo)`  | UI framework                             |
+| **API**              | `Go (Gin)`             | Handles all backend requests             |
+| **Infrastructure**   | `Docker Compose`       | Stable containerised environment         |
+| **Database**         | `Supabase (Postgres)`  | Primary application database             |
+| **Cache**            | `Redis (Cache-Aside)`  | Platform caching layer                   |
+| **Vector Database**  | `Weaviate`             | Vector storage for AI/embeddings         |
+| **AI Orchestration** | `LangChain`            | Agent management and coordination        |
+| Messaging Queue      | `RabbitMQ/Kafka`       | AI agents (per-agent + fallback)         |
+| **Authentication**   | `JWT`                  | User authentication                      |
+| **Monitoring**       | `Prometheus & Grafana` | Maintenance, monitoring and bug tracking |
+| **CI/CD**            | `CircleCI`             | Pipelines to deploy and test             |
+| **Tool**             | `Gist Github`          | Github intergration                      |
+| AI                   | `Hermis Agent`         | AI Agent Orcastration                    |
 
-## Get the App
+### Features
+- Create software with natural language
+- Design architecture, UI and code structure
+- Quality Control tests for existing or new projects
+- Edit code manually
+- Security Scans
+- GitHub integration
 
-### Binary Executable
+---
+## Developer Pull
 
+```
+$ 
+```
 
-### Compile Source Code for Dev# JakesVibe
+---
+## License
+
+GPL-3.0
